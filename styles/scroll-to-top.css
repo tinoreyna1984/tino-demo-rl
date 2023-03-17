@@ -1,0 +1,5 @@
+.scroll-to-top-animation {
+  animation: fadeInAnimation ease-in-out 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}

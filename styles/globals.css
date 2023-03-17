@@ -7,9 +7,21 @@
 @import "keyframes.css";
 @import "effects.css";
 @import "carousel.css";
+@import "scroll-to-top.css";
 
 body {
   font-family: "Lato", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #f2f2f2;
+  border-radius: 12px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d1bebe;
 }
 
 @layer base {
@@ -19,6 +31,10 @@ body {
   h4,
   p {
     @apply m-0;
+  }
+
+  html {
+    @apply scroll-smooth;
   }
 
   h1 {
