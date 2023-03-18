@@ -24,9 +24,9 @@ export default function Footer() {
                 </ul>
             </div>
             <div className="flex flex-col items-start">
-                <h3 className="text-lg">Póngase en contacto con nosotros</h3>
+                <h3 className="text-lg">Fono/Correo/Redes</h3>
                 <ul className="flex flex-col items-start mt-2 gap-4">
-                    <li className="text-sm">Teléfonos: (+593) 42828769/(593) 42821184</li>
+                    <li className="text-sm">Teléfonos: (+593) 42828769/(+593) 42821184</li>
                     <li className="text-sm">Ventas: (+593) 999795275</li>
                     <li className="text-sm">WhatsApp:(+593) 987324925</li>
                     <li className="text-sm">Correo: ventas-corp@richardlorentzen.com, ventas@richardlorentzen.com</li>

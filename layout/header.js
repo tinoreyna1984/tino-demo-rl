@@ -19,9 +19,9 @@ export default function Header() {
                             <Link href='/'>
                                 <img src="/logo-rlorentzen.png" alt='logo-rlorentzen.png' />
                             </Link>
-                            <div onClick={handleMenu}>
+                            <div className='md:hidden' onClick={handleMenu}>
                                 <span id='menu' className='material-symbols-outlined text-4xl
-                                cursor-pointer text-white md:hidden'>
+                                cursor-pointer text-white'>
                                     {opened ? "close" : "menu"}
                                 </span>
                             </div>
@@ -34,8 +34,8 @@ export default function Header() {
                             <MenuLink dir={'#quienes-somos'} text={'Nosotros'} />
                             <MenuLink dir={'#servicios'} text={'Servicios'} />
                             <MenuLink dir={'#clientes'} text={'Clientes'} />
-                            <MenuLink dir={'#'} text={'Galería'} />
-                            <MenuLink dir={'#'} text={'Contacto'} />
+                            <MenuLink dir={'#galeria'} text={'Galería'} />
+                            <MenuLink dir={'#contacto'} text={'Contacto'} />
                         </ul>
                     </div>
                 </nav>

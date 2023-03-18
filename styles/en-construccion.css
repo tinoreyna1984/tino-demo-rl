@@ -1,0 +1,20 @@
+/* página en construcción */
+.en-construccion {
+  background: rgb(213, 14, 57);
+  background: linear-gradient(
+    270deg,
+    rgb(213, 14, 57) 0%,
+    rgba(238, 61, 27, 1) 100%
+  );
+}
+.en-construccion::before {
+  content: "";
+  background-image: url("../public/header-images/himg-02.jpg");
+  background-size: cover;
+  background-attachment: fixed; /* efecto parallax */
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.65;
+}

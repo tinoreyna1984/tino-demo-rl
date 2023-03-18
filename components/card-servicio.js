@@ -5,8 +5,8 @@ export default function CardServicio({ srcImg, title, desc, hRef }) {
         <div className="max-w-[300px] flex flex-col items-center
             lg:transition-transform lg:duration-500 lg:hover:-translate-y-3">
             <picture>
-                <source className="rounded shadow-lg" srcset={`/servicios/avif/${srcImg}.avif`} type="image/avif" />
-                <source className="rounded shadow-lg" srcset={`/servicios/webp/${srcImg}.webp`} type="image/webp" />
+                <source className="rounded shadow-lg" srcSet={`/servicios/avif/${srcImg}.avif`} type="image/avif" />
+                <source className="rounded shadow-lg" srcSet={`/servicios/webp/${srcImg}.webp`} type="image/webp" />
                 <img className="rounded shadow-lg" height={220} width={330} src={`/servicios/minified/${srcImg}.jpg`} alt={`${srcImg}`} />
             </picture>
             <div className="p-8 -mt-16 h-[200px] max-w-[240px] flex flex-col justify-center items-center text-center

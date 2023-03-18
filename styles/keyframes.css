@@ -45,3 +45,10 @@
     opacity: 1;
   }
 }
+
+/* aparecer (imagen) */
+@keyframes fadeInImage {
+  to {
+    opacity: 1;
+  }
+}

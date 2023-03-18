@@ -8,16 +8,20 @@
 @import "effects.css";
 @import "carousel.css";
 @import "scroll-to-top.css";
+@import "en-construccion.css";
 
 body {
   font-family: "Lato", sans-serif;
+}
+body.fixed-body{
+  overflow: hidden; /* inmoviliza el body después de amplificar una imagen de la galería */
 }
 
 ::-webkit-scrollbar {
   width: 8px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #f2f2f2;
+  background: #c4c4c4;
   border-radius: 12px;
 }
 ::-webkit-scrollbar-thumb:hover {

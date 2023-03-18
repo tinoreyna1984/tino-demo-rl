@@ -11,37 +11,37 @@ export default function Servicios() {
                     srcImg={'serv-01'}
                     title={"Equipos contra incendios"}
                     desc={"Brindamos mantenimiento de equipos y recarga de extintores contra incendios, y más."}
-                    hRef={'#'}
+                    hRef={'/en-construccion'}
                 />
                 <CardServicio
                     srcImg={'serv-02'}
                     title={"Señalética"}
                     desc={"Trabajamos con señalética horizontal y vertical para la debida orientación en caso de desastres."}
-                    hRef={'#'}
+                    hRef={'/en-construccion'}
                 />
                 <CardServicio
                     srcImg={'serv-03'}
                     title={"Alarmas contra incendios"}
                     desc={"Trabajamos en instalaciones estratégicas para la prevención de incendios."}
-                    hRef={'#'}
+                    hRef={'/en-construccion'}
                 />
                 <CardServicio
                     srcImg={'serv-04'}
                     title={"Redes hidráulicas"}
                     desc={"Brindamos servicios de montaje en redes hidráulicas contra incendios."}
-                    hRef={'#'}
+                    hRef={'/en-construccion'}
                 />
                 <CardServicio
                     srcImg={'serv-05'}
                     title={"Asesorías en seguridad industrial"}
                     desc={"Ayudamos brindando el conocimiento y normativa que usted debe conocer para su negocio."}
-                    hRef={'#'}
+                    hRef={'/en-construccion'}
                 />
                 <CardServicio
                     srcImg={'serv-06'}
                     title={"Charlas teórico-prácticas"}
                     desc={"Capacitamos y entrenamos a su personal para la seguridad de su negocio."}
-                    hRef={'#'}
+                    hRef={'/en-construccion'}
                 />
             </div>
         </section>

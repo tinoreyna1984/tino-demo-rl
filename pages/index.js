@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google'
 import QuienesSomos from '../layout/quienes-somos'
 import Servicios from '../layout/servicios'
 import Clientes from '../layout/clientes'
+import Galeria from '../layout/galeria'
+import Contacto from '../layout/contacto'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +20,8 @@ export default function Home() {
       <QuienesSomos />
       <Servicios />
       <Clientes />
+      <Galeria />
+      <Contacto />
     </>
   )
 }
