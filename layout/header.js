@@ -40,7 +40,11 @@ export default function Header() {
                     </div>
                 </nav>
                 <div className='flex flex-col items-center mt-16 md:mt-[177px]'>
-                    <h1 className='text-white drop-shadow-3xl text-center md:text-7xl uppercase md:tracking-wide lg:tracking-wider'>Richard Lorentzen</h1>
+                    <h1 className='text-white drop-shadow-3xl text-center
+                        text-4xl md:text-7xl uppercase tracking-wider'
+                    >
+                        RILORSA
+                    </h1>
                     <h2 className='text-white drop-shadow-3xl text-center md:text-3xl md:mt-[39px]'>Servicios y equipos contra incendios</h2>
                 </div>
             </div>

@@ -10,7 +10,8 @@ export default function Footer() {
         >
             <div className="flex flex-col items-start">
                 <h3 className="text-lg">Dirección</h3>
-                <p className="text-sm mt-2">Guayacanes Mz 237 Solar 1, Guayaquil, Ecuador.</p>
+                <p className="text-sm mt-2">Cdla. Guayacanes - Mz. 237 - Solar 1.</p>
+                <p className="text-sm mt-2">Guayaquil, Ecuador.</p>
             </div>
             <div className="flex flex-col items-start">
                 <h3 className="text-lg">Nuestra empresa</h3>
@@ -24,9 +25,9 @@ export default function Footer() {
                 </ul>
             </div>
             <div className="flex flex-col items-start">
-                <h3 className="text-lg">Fono/Correo/Redes</h3>
+                <h3 className="text-lg">Teléfono/Correo/Redes</h3>
                 <ul className="flex flex-col items-start mt-2 gap-4">
-                    <li className="text-sm">Teléfonos: (+593) 42828769/(+593) 42821184</li>
+                    <li className="text-sm">Teléfonos: 042828769/ 042821184</li>
                     <li className="text-sm">Ventas: (+593) 999795275</li>
                     <li className="text-sm">WhatsApp:(+593) 987324925</li>
                     <li className="text-sm">Correo: ventas-corp@richardlorentzen.com, ventas@richardlorentzen.com</li>
@@ -42,7 +43,7 @@ export default function Footer() {
             </div>
             <div className="flex flex-col items-start">
                 <p className="text-sm">
-                    Derechos reservados, Richard Lorentzen - Servicios y equipos contra incendios &copy;{new Date().getFullYear()}
+                    Derechos reservados, RILORSA &copy;{new Date().getFullYear()}
                 </p>
                 <p className="text-sm">
                     Desarrollado por <a href="https://tinexlab.vercel.app/" className="font-bold" target={'_blank'}>TinexLab</a>

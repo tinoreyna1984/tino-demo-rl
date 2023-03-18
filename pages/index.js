@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Richard Lorentzen - Servicios y equipos contra incendios</title>
+        <title>RILORSA - Servicios y equipos contra incendios</title>
         <meta name="description" content="Servicios y equipos contra incendios" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

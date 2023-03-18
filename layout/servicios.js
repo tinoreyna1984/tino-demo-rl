@@ -10,19 +10,19 @@ export default function Servicios() {
                 <CardServicio
                     srcImg={'serv-01'}
                     title={"Equipos contra incendios"}
-                    desc={"Brindamos mantenimiento de equipos y recarga de extintores contra incendios, y más."}
+                    desc={"Realizamos ventas, recargas y mantenimiento de equipos contra incendios."}
                     hRef={'/en-construccion'}
                 />
                 <CardServicio
                     srcImg={'serv-02'}
                     title={"Señalética"}
-                    desc={"Trabajamos con señalética horizontal y vertical para la debida orientación en caso de desastres."}
+                    desc={"Confeccionamos señalética de seguridad industrial horizontal y vertical."}
                     hRef={'/en-construccion'}
                 />
                 <CardServicio
                     srcImg={'serv-03'}
                     title={"Alarmas contra incendios"}
-                    desc={"Trabajamos en instalaciones estratégicas para la prevención de incendios."}
+                    desc={"Ofrecemos servicio de instalación estratégica de alarmas para la prevención de incendios."}
                     hRef={'/en-construccion'}
                 />
                 <CardServicio
@@ -34,13 +34,13 @@ export default function Servicios() {
                 <CardServicio
                     srcImg={'serv-05'}
                     title={"Asesorías en seguridad industrial"}
-                    desc={"Ayudamos brindando el conocimiento y normativa que usted debe conocer para su negocio."}
+                    desc={"Brindamos asesoría acerca de la normativa que usted debe conocer para la implementación de su negocio."}
                     hRef={'/en-construccion'}
                 />
                 <CardServicio
                     srcImg={'serv-06'}
                     title={"Charlas teórico-prácticas"}
-                    desc={"Capacitamos y entrenamos a su personal para la seguridad de su negocio."}
+                    desc={"Ofrecemos capacitaciones teórico-prácticas el área de seguridad industrial y riesgo laboral a personal de empresas."}
                     hRef={'/en-construccion'}
                 />
             </div>
